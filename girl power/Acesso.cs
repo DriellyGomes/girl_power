@@ -72,14 +72,16 @@ namespace girl_power
                     f.MenuIngresso.Visible = true;
                     f.MenuFuncionarios.Visible = true;
                     f.MenuFilme.Visible = true;
+                    f.MenuSessao.Visible = true;
                 }
                 else if (cargo == "Atendente")
                 {
                     
-                    f.MenuFilme.Visible = true;
+                    f.MenuFilme.Visible = false;
                     f.MenuIngresso.Visible = true;
                     f.MenuFuncionarios.Visible = false;
                     f.MenuCadastroFilme.Visible = false;
+                    f.MenuSessao.Visible = false;
                 }
 
 

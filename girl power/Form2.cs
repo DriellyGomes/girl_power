@@ -45,7 +45,7 @@ namespace girl_power
             cmd.Parameters.AddWithValue("Duraçao", txtDuracao.Text);
             cmd.Parameters.AddWithValue("AnodeLancamento", txtAno.Text);
             cmd.Parameters.AddWithValue("Sinopse", txtSinopse.Text);
-            cmd.Parameters.AddWithValue("Sessão", txtsessao.Text);
+            
             
 
 
@@ -141,7 +141,6 @@ namespace girl_power
                 cmd.Parameters.AddWithValue("Duraçao", txtDuracao.Text);
                 cmd.Parameters.AddWithValue("AnodeLancamento", txtAno.Text);
                 cmd.Parameters.AddWithValue("idFilme", txtID.Text);
-                cmd.Parameters.AddWithValue("Sessão", txtsessao.Text);
 
                 connection.Open();
                 cmd.ExecuteNonQuery(); 

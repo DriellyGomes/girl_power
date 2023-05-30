@@ -57,7 +57,7 @@ namespace girl_power
                 while (reader.Read())
                 {
                     filmeslista.Items.Add(reader.GetString(1));
-                    sessao.Items.Add(reader.GetString(5));
+                    boxsessao.Items.Add(reader.GetString(4));
                 }
             }
 
@@ -70,7 +70,43 @@ namespace girl_power
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = "Server=turmassenacsantos.mssql.somee.com;Database=turmassenacsantos;User Id=senacclovis_SQLLogin_1;Password=n1642mlxmm;";
+
+
+
+
+
+            SqlCommand command = new SqlCommand();
+            command.CommandText = "SELECT * FROM SessãoFil";
+            command.CommandType = CommandType.Text;
+            command.Connection = connection;
+
+
+
+
+
+            connection.Open();
+            SqlDataReader reader = command.ExecuteReader();
+
+
+
+
+
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+
+
+
+                    string sessao = reader.GetString(1) + " " + reader.GetTimeSpan(2) + " " + reader.GetString(3);
+
+
+
+                    boxsessao.Items.Add(sessao);
+                }
+            }
         }
 
         private void btnIngresso_Click(object sender, EventArgs e)
@@ -98,6 +134,11 @@ namespace girl_power
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void boxsessao_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

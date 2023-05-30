@@ -45,8 +45,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtsessao = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -77,7 +75,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Dubai", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(255, 218);
+            this.label3.Location = new System.Drawing.Point(21, 218);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 32);
             this.label3.TabIndex = 2;
@@ -119,7 +117,7 @@
             // 
             // txtSinopse
             // 
-            this.txtSinopse.Location = new System.Drawing.Point(330, 225);
+            this.txtSinopse.Location = new System.Drawing.Point(96, 225);
             this.txtSinopse.Multiline = true;
             this.txtSinopse.Name = "txtSinopse";
             this.txtSinopse.Size = new System.Drawing.Size(334, 195);
@@ -205,23 +203,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(919, 426);
             this.dataGridView1.TabIndex = 16;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Dubai", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(18, 218);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(72, 32);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "Sessão:";
-            // 
-            // txtsessao
-            // 
-            this.txtsessao.Location = new System.Drawing.Point(96, 224);
-            this.txtsessao.Name = "txtsessao";
-            this.txtsessao.Size = new System.Drawing.Size(100, 20);
-            this.txtsessao.TabIndex = 18;
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
@@ -235,8 +216,6 @@
             this.BackgroundImage = global::girl_power.Properties.Resources.Captura_de_tela_2023_05_16_082544_removebg_preview;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(943, 450);
-            this.Controls.Add(this.txtsessao);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtID);
@@ -281,8 +260,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txtsessao;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }

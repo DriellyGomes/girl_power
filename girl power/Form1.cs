@@ -85,5 +85,12 @@ namespace girl_power
             L.MdiParent = this;
             L.Show();
         }
+
+        private void cadastroSessãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sessao S = new Sessao();
+            S.MdiParent = this;
+            S.Show();
+        }
     }
 }

@@ -39,7 +39,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.filmeslista = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.sessao = new System.Windows.Forms.ComboBox();
+            this.boxsessao = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.numinteira)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -152,13 +152,14 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Sessão:";
             // 
-            // sessao
+            // boxsessao
             // 
-            this.sessao.FormattingEnabled = true;
-            this.sessao.Location = new System.Drawing.Point(100, 140);
-            this.sessao.Name = "sessao";
-            this.sessao.Size = new System.Drawing.Size(121, 21);
-            this.sessao.TabIndex = 14;
+            this.boxsessao.FormattingEnabled = true;
+            this.boxsessao.Location = new System.Drawing.Point(100, 140);
+            this.boxsessao.Name = "boxsessao";
+            this.boxsessao.Size = new System.Drawing.Size(121, 21);
+            this.boxsessao.TabIndex = 14;
+            this.boxsessao.SelectedIndexChanged += new System.EventHandler(this.boxsessao_SelectedIndexChanged);
             // 
             // ingresso
             // 
@@ -168,7 +169,7 @@
             this.BackgroundImage = global::girl_power.Properties.Resources.Captura_de_tela_2023_05_16_082544_removebg_preview;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(737, 369);
-            this.Controls.Add(this.sessao);
+            this.Controls.Add(this.boxsessao);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnIngresso);
             this.Controls.Add(this.label5);
@@ -206,6 +207,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.ComboBox filmeslista;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox sessao;
+        private System.Windows.Forms.ComboBox boxsessao;
     }
 }
