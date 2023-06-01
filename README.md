@@ -1,3 +1,7 @@
 # girl_power![acesso funcionarios](https://github.com/DriellyGomes/girl_power/assets/133239361/544c970c-1ba3-4621-bfdd-f2da19d5ed2b)
 ![cadastro filme](https://github.com/DriellyGomes/girl_power/assets/133239361/83a71f74-e2e9-4b79-89a8-918ff414b541)
 ![cadstro de funcionario ](https://github.com/DriellyGomes/girl_power/assets/133239361/3850824d-39f2-40d6-9b1f-5540a670f43d)
+![ingresso](https://github.com/DriellyGomes/girl_power/assets/133239361/ed6293f6-01c6-446e-aebe-8cd9a0e8535d)
+![listar filmes](https://github.com/DriellyGomes/girl_power/assets/133239361/fc847730-390e-40bf-bef4-467bf5f8f229)
+![sessão](https://github.com/DriellyGomes/girl_power/assets/133239361/2494f9c5-edc6-435d-959c-b3e91aba87c6)
+![tela inicial](https://github.com/DriellyGomes/girl_power/assets/133239361/161f9426-24b4-4aaa-a25f-a57abedd619d)
